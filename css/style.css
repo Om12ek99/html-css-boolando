@@ -1,5 +1,5 @@
 
-*/
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -39,8 +39,10 @@ img {
 
 
   .logo{
-    display: flex;
+    display: none;
     align-items: center;
+    width: 100px;
+    
 
   }
   
@@ -72,4 +74,9 @@ img {
     /*debug*/
     background-color: #FF6900;
     height: 55px;
+  }
+
+  footer{
+    background-color: grey;
+    height: 100px;
   }
