@@ -1,3 +1,75 @@
-body{
-    background-color: aqua;
+
+*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
+:root{
+    --orange: #FF6900;
+}
+
+img {
+    max-width: 100%;
+  }
+
+  ul{
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+  }
+
+  /*HEADER*/
+  header{
+    /*debug*/
+    height: 60px;
+    padding: 50px;
+    
+  }
+
+  .navbar{
+    /*debug*/
+    background-color: #FF6900;
+    height: 50px;
+    width: 100%;    
+    position: absolute;
+    margin-top: 0;
+  }
+
+
+  .logo{
+    display: flex;
+    align-items: center;
+
+  }
+  
+  /*MAIN*/
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+    border: 1px solid black;
+    
+  }
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    width: calc(100% / 3);
+    border-left: 15px;
+    
+  }
+  
+  .card {
+    position: relative;
+  }
+  
+  .testo{
+    /*debug*/
+    background-color: #FF6900;
+    height: 55px;
+  }
